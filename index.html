@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-<!-- SH | Dārzniecība — Dārzniecības darbu grafiks (intervāls, sezona, lietus), izpilde ar bildi. Ģenerēts no SH-projekts/sh-darbi/template.html (build.py) — labot tur. © VAITKEVIX, SIA -->
+<!-- SH | Dārzniecība — Dārzniecības darbu grafiks (intervāls, sezona, lietus), izpilde ar bildi. © VAITKEVIX, SIA -->
 <style>
 :root{--bg:#f1f4f2;--surf:#fff;--surf2:#f3f5f4;--ink:#17201c;--ink2:#4a534f;--ink3:#6d7672;--dark:#17201c;--ondark:#fff;
   --mint:#d6e8e1;--sand:#f4e4b4;--sky:#d8e6f2;--rose:#f5dbe3;--lilac:#e2ddf2;--ok:#2f5d45;--warn:#6b4a00;--bad:#8a2a3b}
@@ -157,7 +157,7 @@ button{cursor:pointer}
 
 <script>
 'use strict';
-/* Lietotnes iestatījumi (build.py) */
+/* Lietotnes iestatījumi */
 const APP = {"svc": "darz", "mode": "interval", "name": "Dārzniecība", "acc": "mint", "unit": "m²", "qtyL": "Platība, m²", "qtyPh": "Piem. 800", "doneL": "Izdarīts", "doneBtn": "Izdarīts", "lower": "dārzniecība", "weather": ["rain"], "wxL": "lietus", "maxInt": 120, "notice": false, "veidiObj": true, "actL": "Kopt šo objektu", "notePh": "Piem. rozes pie ieejas negriezt", "objHelp": "Grafikā nonāk objekti ar m² > 0. Izvēlieties darbus, platību un intervālu — datumus grafiks izliks pats.", "whys": ["Lietus", "Nav piekļuves", "Tehnika", "Nepaspēju"]};
 const API = 'https://aizvietosana-api.vaitkevix.workers.dev/' + APP.svc, IMG = 'https://aizvietosana-api.vaitkevix.workers.dev/img?sz=w400&id=';
 const SNOW = APP.mode === 'snow', PINK = 'shd_pin';
